@@ -1,0 +1,164 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# https://atom.io/docs/latest/using-atom-basic-customization#cson
+
+'.source.js.jsx':
+
+  'console.log':
+    'prefix': 'log'
+    'body': 'console.log(\'$1\');'
+
+  'import es6':
+    'prefix': 'import'
+    'body': 'import ${1:name} from \'${2:module}\';'
+
+  'require commonjs':
+    'prefix': 'req'
+    'body': 'const ${1:variable} = requir(\'${2:module}\');'
+
+  'describe mocha test':
+    'prefix': 'desc'
+    'body': """
+      describe('${1:empty}', () => {
+        it('${2:should pass the test}', () => {
+            const actual = ${3:true};
+            const expected = ${4:true};
+            expect(actual).toEqual(expected);$5
+        });
+      });
+    """
+
+  'it mocha test':
+    'prefix': 'it'
+    'body': """
+      it('${2:should pass the test}', () => {
+          const actual = ${3:true};
+          const expected = ${4:true};
+          expect(actual).toEqual(expected);$5
+      });
+    """
+
+
+  'arrow function':
+    'prefix': 'f'
+    'body': """
+      ($1) => {
+        $2;
+      }$3
+    """
+
+  'anonymous function':
+    'prefix': 'ff'
+    'body': """
+      function($1) {
+        $2;
+      }$3
+    """
+
+  'oneline arrow function':
+    'prefix': 'fff'
+    'body': """
+      ($1) => $2;
+    """
+
+  # REACT
+  'import react':
+    'prefix': 'ir'
+    'body': 'import React from \'react\';'
+
+  'import react-router':
+    'prefix': 'irr'
+    'body': 'import { Router } from \'react-router\';'
+
+  'import react-dom':
+    'prefix': 'ird'
+    'body': 'import reactDOM from \'react-dom\';'
+
+  'import test-utils':
+    'prefix': 'itu'
+    'body': 'import TestUtils from \'react-addons-test-utils\';'
+
+  'import expect':
+    'prefix': 'iex'
+    'body': 'import expect from \'expect\';'
+
+  'Class.propTypes':
+    'prefix': 'cpt'
+    'body': """
+      ${1:Class}.propTypes = {
+        ${2:prop}: React.PropTypes.${3:string}${4:.isRequired}
+      };
+      """
+
+  'react es6 constructor':
+    'prefix': '_con'
+    'body': """
+    constructor(props) {
+      super(props);
+      this.state = {
+        ${1:key}: ${2:value}
+      };
+    }
+    """
+
+  'this.setState':
+    'prefix': 'ss'
+    'body': """
+    this.setState({
+      ${1:key}: ${2:value}
+    });
+    """
+
+  'Class method':
+    'prefix': '_f'
+    'body': """
+    ${1:methodName}(${2:args}) {
+      $3
+    }
+    """
+
+
+  'React.PropTypes':
+    'prefix': 'pt'
+    'body': '${2:prop}: React.PropTypes.${3:string}${4:.isRequired}';
+
+  #OVERRIDE REACT snippets package
+
+  'react es6 class':
+    'prefix': '_clss'
+    'body': """
+    ${1:export default }class ${2:Name} extends React.Component {
+      render() {
+        return (
+          $3
+        );
+      }
+    }
+    """
+
+  # REACT NATIVE
+  'import react-native':
+    'prefix': 'irn'
+    'body': 'import React from \'react-native\';'
+
+  'react-native style':
+    'prefix': ['stl','style']
+    'body': 'style={styles.${1:prop}}'

@@ -1,0 +1,47 @@
+"*":
+  "exception-reporting":
+    userId: "67bc340a-34d6-4645-1e2f-e587924fb717"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "native-ui"
+      "atom-dark-syntax"
+    ]
+    openEmptyEditorOnStart: false
+    ignoredNames: [
+      "node_modules"
+    ]
+    disabledPackages: [
+      "open-path"
+    ]
+  editor:
+    invisibles: {}
+    softWrap: true
+    fontSize: 13
+  emmet:
+    extensionsPath: "~/dotfiles/emmet"
+  "file-icons":
+    onChanges: true
+    tabPaneIcon: false
+    coloured: false
+  "tree-view":
+    squashDirectoryNames: true
+  "git-plus": {}
+  "atom-beautify":
+    _analyticsUserId: "17df8a3c-4150-4c27-83f8-2a4e0ad88a8d"
+  "markdown-preview":
+    openPreviewInSplitPane: false
+  pigments: {}
+  tabs: {}
+  "linter-eslint":
+    disableWhenNoEslintConfig: false
+    useGlobalEslint: true
+    globalNodePath: "/usr/local"
+    eslintrcPath: "/Users/user/.eslintrc"
+  linter: {}
+  "fuzzy-finder": {}
+  "language-babel":
+    babelMapsAddUrl: false
+  "expand-region": {}
+  "mocha-ui": {}

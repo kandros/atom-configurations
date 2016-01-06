@@ -1,0 +1,71 @@
+# Your keymap
+#
+# Atom keymaps work similarly to style sheets. Just as style sheets use
+# selectors to apply styles to elements, Atom keymaps use selectors to associate
+# keystrokes with events in specific contexts. Unlike style sheets however,
+# each selector can only be declared once.
+#
+# You can create a new keybinding in this file by typing "key" and then hitting
+# tab.
+#
+# Here's an example taken from Atom's built-in keymap:
+#
+# 'atom-text-editor':
+#   'enter': 'editor:newline'
+#
+# 'atom-workspace':
+#   'ctrl-shift-p': 'core:move-up'
+#   'ctrl-p': 'core:move-down'
+#
+# You can find more information about keymaps in these guides:
+# * https://atom.io/docs/latest/using-atom-basic-customization#customizing-key-bindings
+# * https://atom.io/docs/latest/behind-atom-keymaps-in-depth
+#
+# This file uses CoffeeScript Object Nota,tion (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# https://atom.io/docs/latest/u sing-atom-basic-customization#cson
+'atom-text-editor':
+  'cmd-m': 'bracket-matcher:go-to-matching-bracket'
+
+'.editor:not(.mini)':
+  'ctrl-up': 'editor:move-line-up'
+  'ctrl-down': 'editor:move-line-down'
+  'shift-cmd-k': 'editor:delete-line'
+  'ctrl-q': 'editor:toggle-line-comments'
+  'cmd-g': 'go-to-line:toggle'
+  'alt-up': 'expand-region:expand'
+  'alt-down': 'expand-region:shrink'
+
+'body':
+  'cmd-q': 'unset!'
+  'cmd-q': 'editor:toggle-line-comments'
+
+'atom-text-editor:not([mini])':
+  'cmd-,': 'emmet:balance-outward'
+  'cmd-shift-,': 'emmet:balance-inward'
+  'ctrl-shift-m': 'markdown-preview:toggle'
+  'cmd-\\': 'pane:split-right'
+  'cmd--': 'pane:split-down'
+
+'.platform-darwin':
+  'ctrl-,': 'settings-view:open'
+
+'.platform-darwin atom-text-editor:not([mini])':
+  'cmd-shift-j': 'grammar-selector:show'
+
+'.fuzzy-finder':
+  'tab': 'core:move-down'
+  'shift-tab': 'core:move-up'
+
+'.fuzzy-finder atom-text-editor':
+  'cmd-i': 'custom:fuzzy-finder-import'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'cmd-o': 'open-this:here'
+  'cmd-shift-o': 'open-this:split-down'
+  'ctrl-cmd-shift-o': 'open-this:split-right'
+
+'.fuzzy-finder atom-text-editor[mini]':
+  'cmd-\\': 'pane:split-right'
+  'cmd--': 'pane:split-down'
