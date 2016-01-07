@@ -1,2 +1,4 @@
 	#!/bin/sh
-	find ./packages -mindepth 1 -maxdepth 1 -type d  \( ! -iname ".*" \) | sed 's|^\./packages/||g' > installed-packages
+
+	# I run this script from .git/hooks/pre-commit file in order to save a list of installed packages on every commit
+	find ./packages -maxdepth 1 -type d  \( ! -iname ".*" \) | sed 's|^\./packages/||g' > installed-packages
