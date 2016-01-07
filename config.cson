@@ -4,16 +4,16 @@
   welcome:
     showOnStartup: false
   core:
-    themes: [
-      "native-ui"
-      "atom-dark-syntax"
-    ]
     openEmptyEditorOnStart: false
     ignoredNames: [
       "node_modules"
     ]
     disabledPackages: [
       "open-path"
+    ]
+    themes: [
+      "native-ui"
+      "one-dark-syntax"
     ]
   editor:
     invisibles: {}
