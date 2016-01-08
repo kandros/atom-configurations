@@ -45,3 +45,4 @@
     babelMapsAddUrl: false
   "expand-region": {}
   "mocha-ui": {}
+  "bracket-matcher": {}

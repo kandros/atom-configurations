@@ -54,7 +54,7 @@
 '.platform-darwin atom-text-editor:not([mini])':
   'cmd-shift-j': 'grammar-selector:show'
 
-'.fuzzy-finder':
+'.fuzzy-finder, .grammar-selector, .command-palette, .symbols-view':
   'tab': 'core:move-down'
   'shift-tab': 'core:move-up'
 
