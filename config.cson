@@ -10,10 +10,11 @@
     ]
     disabledPackages: [
       "open-path"
+      "git-time-machine"
     ]
     themes: [
       "native-ui"
-      "one-dark-syntax"
+      "monokai"
     ]
   editor:
     invisibles: {}

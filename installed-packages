@@ -5,10 +5,12 @@ emmet
 expand-region
 file-icons
 git-plus
+git-time-machine
 language-babel
 linter
 linter-eslint
 merge-conflicts
+monokai
 native-ui
 open-in-browser
 open-on-bitbucket

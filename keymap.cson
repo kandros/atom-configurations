@@ -47,6 +47,8 @@
   'ctrl-shift-m': 'markdown-preview:toggle'
   'cmd-\\': 'pane:split-right'
   'cmd--': 'pane:split-down'
+  'cmd-space': 'snippets:next-tab-stop'
+  'cmd-space': 'snippets:expand'
 
 '.platform-darwin':
   'ctrl-,': 'settings-view:open'

@@ -20,6 +20,25 @@
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
+
+
+
+'.text.html.basic':
+  'polymer Component':
+    'prefix': 'pol'
+    'body': """
+    <dom-module id="$1">
+      <template>
+        $2
+      </template>
+      <script>
+        Polymer({
+          is: '$1'
+        });
+      </script>
+    </dom-module>
+    """
+
 '.source.js.jsx':
 
   'console.log':
