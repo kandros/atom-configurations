@@ -49,6 +49,7 @@
   'cmd--': 'pane:split-down'
   'cmd-space': 'snippets:next-tab-stop'
   'cmd-space': 'snippets:expand'
+  'cmd-alt-b': 'atom-beautify:beautify-editor'
 
 '.platform-darwin':
   'ctrl-,': 'settings-view:open'

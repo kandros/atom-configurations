@@ -1,49 +1,50 @@
 "*":
-  "exception-reporting":
-    userId: "67bc340a-34d6-4645-1e2f-e587924fb717"
-  welcome:
-    showOnStartup: false
+  "atom-beautify":
+    _analyticsUserId: "17df8a3c-4150-4c27-83f8-2a4e0ad88a8d"
+  "bracket-matcher": {}
   core:
-    openEmptyEditorOnStart: false
-    ignoredNames: [
-      "node_modules"
-    ]
     disabledPackages: [
       "open-path"
       "git-time-machine"
+      "angularjs"
     ]
+    ignoredNames: [
+      "node_modules"
+    ]
+    openEmptyEditorOnStart: false
     themes: [
       "native-ui"
       "monokai"
     ]
   editor:
+    fontSize: 13
     invisibles: {}
     softWrap: true
-    fontSize: 13
   emmet:
     extensionsPath: "~/dotfiles/emmet"
+  "exception-reporting":
+    userId: "67bc340a-34d6-4645-1e2f-e587924fb717"
+  "expand-region": {}
   "file-icons":
+    coloured: false
     onChanges: true
     tabPaneIcon: false
-    coloured: false
-  "tree-view":
-    squashDirectoryNames: true
-  "git-plus": {}
-  "atom-beautify":
-    _analyticsUserId: "17df8a3c-4150-4c27-83f8-2a4e0ad88a8d"
-  "markdown-preview":
-    openPreviewInSplitPane: false
-  pigments: {}
-  tabs: {}
-  "linter-eslint":
-    disableWhenNoEslintConfig: false
-    useGlobalEslint: true
-    globalNodePath: "/usr/local"
-    eslintrcPath: "/Users/user/.eslintrc"
-  linter: {}
   "fuzzy-finder": {}
+  "git-plus": {}
   "language-babel":
     babelMapsAddUrl: false
-  "expand-region": {}
+  linter: {}
+  "linter-eslint":
+    disableWhenNoEslintConfig: false
+    eslintrcPath: "/Users/user/.eslintrc"
+    globalNodePath: "/usr/local"
+    useGlobalEslint: true
+  "markdown-preview":
+    openPreviewInSplitPane: false
   "mocha-ui": {}
-  "bracket-matcher": {}
+  pigments: {}
+  tabs: {}
+  "tree-view":
+    squashDirectoryNames: true
+  welcome:
+    showOnStartup: false

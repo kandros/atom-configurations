@@ -32,7 +32,7 @@ atom.commands.add '.fuzzy-finder', 'custom:fuzzy-finder-import', (e) ->
     identifierName = basename(destinationPath).replace(/\..+/, '')
 
     # return the generated code
-    "import #{identifierName} from '#{relativePath}';\n"
+    "import #{identifierName} from '#{relativePath}';"
 
   do ->
     destinationPath = getSelectedFilePathFromFuzzyFinderAndCloseIt()
