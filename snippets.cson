@@ -80,7 +80,7 @@
     'prefix': 'f'
     'body': """
       ($1) => {
-        $2;
+        $2
       }$3
     """
 
@@ -88,14 +88,14 @@
     'prefix': 'ff'
     'body': """
       function($1) {
-        $2;
+        $2
       }$3
     """
 
   'oneline arrow function':
     'prefix': 'fff'
     'body': """
-      ($1) => $2;
+      ($1) => $2
     """
 
   # REACT

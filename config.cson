@@ -46,6 +46,7 @@
   pigments: {}
   tabs: {}
   "tree-view":
+    hideVcsIgnoredFiles: true
     squashDirectoryNames: true
   welcome:
     showOnStartup: false
