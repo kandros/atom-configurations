@@ -3,10 +3,11 @@
     _analyticsUserId: "17df8a3c-4150-4c27-83f8-2a4e0ad88a8d"
   "bracket-matcher": {}
   core:
+    closeEmptyWindows: false
     disabledPackages: [
       "open-path"
       "git-time-machine"
-      "angularjs"
+      "terminal-plus"
     ]
     ignoredNames: [
       "node_modules"
@@ -14,10 +15,9 @@
     openEmptyEditorOnStart: false
     themes: [
       "native-ui"
-      "monokai"
+      "one-dark-syntax"
     ]
   editor:
-    fontSize: 13
     invisibles: {}
     showIndentGuide: true
     softWrap: true
@@ -46,7 +46,6 @@
   pigments: {}
   tabs: {}
   "tree-view":
-    hideVcsIgnoredFiles: true
     squashDirectoryNames: true
   welcome:
     showOnStartup: false

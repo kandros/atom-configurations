@@ -1,5 +1,4 @@
 ./packages
-angularjs
 atom-beautify
 autocomplete-paths
 emmet
@@ -19,3 +18,4 @@ open-path
 open-this
 pigments
 react-snippets
+terminal-plus
