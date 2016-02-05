@@ -13,4 +13,4 @@
 
 # Import other inits
 fuzzyImport = require('./init-scripts/fuzzy-import');
-autoGrammarSelector = require ('./init-scripts/auto-grammar-selector');
+# autoGrammarSelector = require ('./init-scripts/auto-grammar-selector');
