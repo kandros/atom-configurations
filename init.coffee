@@ -13,10 +13,4 @@
 
 # Import other inits
 fuzzyImport = require('./init-scripts/fuzzy-import');
-
-
-# atom.workspace.observeTextEditors (editor) ->
-#   editor.onDidSave (change) ->
-#     console.log change
-#   if editor.getGrammar().name is 'Null Grammar'
-#     console.log(editor.getGrammar().name);
+autoGrammarSelector = require ('./init-scripts/auto-grammar-selector');
