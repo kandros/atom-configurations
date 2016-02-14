@@ -1,5 +1,6 @@
 ./packages
 atom-beautify
+atom-wallaby
 autocomplete-paths
 emmet
 expand-region
@@ -7,6 +8,7 @@ file-icons
 git-plus
 git-time-machine
 language-babel
+language-elixir
 linter
 linter-eslint
 merge-conflicts

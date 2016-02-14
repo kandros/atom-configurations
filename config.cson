@@ -8,6 +8,7 @@
       "open-path"
       "git-time-machine"
       "terminal-plus"
+      "atom-wallaby"
     ]
     ignoredNames: [
       "node_modules"

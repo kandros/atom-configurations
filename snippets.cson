@@ -123,7 +123,7 @@
     'prefix': 'cpt'
     'body': """
       ${1:Class}.propTypes = {
-        ${2:prop}: React.PropTypes.${3:string}${4:.isRequired}
+        ${2:prop}: PropTypes.${3:string}${4:.isRequired}
       };
       """
 
@@ -157,7 +157,7 @@
 
   'React.PropTypes':
     'prefix': 'pt'
-    'body': '${2:prop}: React.PropTypes.${3:string}${4:.isRequired}';
+    'body': '${2:prop}: PropTypes.${3:string}${4:.isRequired}';
 
   #OVERRIDE REACT snippets package
 
