@@ -5,7 +5,6 @@
   core:
     closeEmptyWindows: false
     disabledPackages: [
-      "open-path"
       "git-time-machine"
       "terminal-plus"
       "atom-wallaby"
